@@ -115,10 +115,27 @@ textarea {
 /*= Article
 **************************************************/
 .content {
-    font: 16px/140% Arial, sans-serif;
+    font: 16px/163% Arial, sans-serif;
+    padding: 0 12px;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
+code {
+    font-family: 'Courier New', Courier, monospace;
+}
 
+.code-block {
+    padding: 20px 10px;
+    background-color: #34495e;
+    color: #ecf0f1;
+}
+
+@media screen and (min-width: 960px) {
+    .content {
+        padding: 0;
+    }
+}
 
 /*= Waiting Indicator 
 **************************************************/
