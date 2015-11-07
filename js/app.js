@@ -19,6 +19,8 @@ KISSY.add(function(S, IO, Node, waitingIndicator) {
               node[1][key] = value;
             }
           };
+          
+          fun = 1;
 
         (function processNode(node) {
           if (node[0] === 'code_block') {
